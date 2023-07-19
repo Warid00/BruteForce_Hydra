@@ -12,7 +12,7 @@ Using **hydra**. **-l admin** = using admin as login name. **-P /usr/share/wordl
 Ps: To find out where to input username and where to input password: use burpsuite, go to proxy, go to browser and settings, proxy setting (nettwork settings), manual proxy config HTTP Proxy to: 127.0.0.1 and Port to 8080. This sends all web request to proxy. Go to target login page type test in user and password and press login, then go to burpsuite and turn intercept is on, then can see at the bottom tfUName=test&tfUPass=test, and there you go.
 Turn the intercepter off when done with all
 
-How hydra is build:
+### How hydra is build:
 
 [-l LOGIN|-L FILE] [-p PASS|-P FILE] [-u] [-f] [IP ADDRESS] [-s PORT] [MODULE] [URL]
 
